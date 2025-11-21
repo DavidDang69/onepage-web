@@ -4,7 +4,7 @@ Shibal - kavárna
 ## **Žák**
 
 Minh Duc Dang
-## **Stručný popis tématu**
+## **Stručný popis tématu
 
 Webová prezentace kavárny bude tvořena jednoduchým a přehledným one-page rozložením. Stránka nabídne sekce jako Menu, About Us, Photo gallery, Reservation, Work With Us a Contact, aby návštěvníci rychle našli všechny potřebné informace. Důraz je kladen na snadnou a intuitivní navigaci, moderní vzhled a rychlou orientaci. Cílem projektu je vytvořit uživatelsky přívětivý web, který efektivně představí kavárnu a její služby.
 
@@ -36,6 +36,11 @@ Zákazníci hledající kvalitní kávu, příjemné posezení a moderní prost�
 
 ## **Použité technologie**
 
+- **Frontend:** HTML a CSS
+    
+- **Data:** Statický obsah přímo v HTML
+    
+- **Verzování:** Git + GitHub (repozitář dostupný vyučujícímu)
 
 ---
 
