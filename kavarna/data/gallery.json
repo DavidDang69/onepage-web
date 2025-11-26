@@ -1,0 +1,19 @@
+{
+  "gallery": {
+    "title": "Photo Gallery",
+    "grid": {
+      "default": 4,
+      "1000px": 3,
+      "700px": 2,
+      "420px": 1
+    },
+    "hoverZoom": true,
+    "lightbox": false,
+    "images": [
+      "img/gallery/gallery1.jpg",
+      "img/gallery/gallery2.jpg",
+      "img/gallery/gallery3.jpg",
+      "img/gallery/kava-a-tiramisu.jpg"
+    ]
+  }
+}

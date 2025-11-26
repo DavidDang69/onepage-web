@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kavarna</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo kavárny">
+        </div>
+
+        <div class="menu-icon" id="menuIcon">
+            &#9776; <!-- ikonka tří čar -->
+        </div>
+
+        <nav id="navMenu">
+            <ul>
+                <li><a href="#menu">menu</a></li>
+                <li><a href="#about-us">about us</a></li>
+                <li><a href="gallery.html">photo gallery</a></li>
+                <li><a href="#">reservation</a></li>
+                <li><a href="#">work with us</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+<section class="hero">
+    <h1 class="hero-title">Shibal</h1>
+    <div class="hero-buttons">
+        <a href="#menu  " class="btn">Menu</a>
+        <a href="#" class="btn">Reservation</a>
+    </div>
+</section>
+<section class="about-us" id="about-us">
+    <h2>About Us</h2>
+    <p>
+        blablablablablablablablablablablablablablablablablablablablablablablablablablabla
+        blablablablablablablablablablablablablablablablablablablablablablablablablablabla
+        blablablablablablablablablablablablablablablablablablablablablablablablablablabla
+        blablablablablablablablablablablablablablablablablablablablablablablablablablabla
+        blablablablablablablablablablablablablablablablablablablablablablablablablablabla
+        blablablablablablablablablablablablablablablablablablablablablablablablablablabla
+        blablablablablablablablablablablablablablablablablablablablablablablablablablabla
+        blablablablablablablablablablablablablablablablablablablablablablablablablablabla   
+    </p>
+</section>
+<section class="menu-section" id="menu">
+    <h2>Menu</h2> <!-- hlavní nadpis -->
+
+    <div class="menu-category">
+        <h3>breakfast</h3>
+        <ul>
+            <li>casy</li>
+            <li>list</li>
+            <li>list</li>
+            <li>list</li>
+            <li>list</li>
+            <li>extras</li>
+        </ul>
+    </div>
+
+    <div class="menu-category">
+    <h3>afternoon menu</h3>
+    <ul>
+        <li>casy</li>
+        <li>list</li>
+        <li>list</li>
+        <li>list</li>
+        <li>list</li>
+        <li>extras</li>
+    </ul>
+    </div>
+    
+    <div class="menu-category">
+        <h3>alko drinky</h3>
+        <ul>
+            <li>list</li>
+            <li>list</li>
+            <li>list</li>
+            <li>list</li>
+        </ul>
+    </div>
+        <div class="menu-category">
+        <h3>nealko drinky</h3>
+        <ul>
+            <li>list</li>
+            <li>list</li>
+            <li>list</li>
+            <li>list</li>
+        </ul>
+    </div>
+</section>
+
+    <script>
+        const menuIcon = document.getElementById('menuIcon');
+        const navMenu = document.getElementById('navMenu');
+
+        menuIcon.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
+    

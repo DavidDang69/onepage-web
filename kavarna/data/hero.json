@@ -1,0 +1,11 @@
+{
+  "hero": {
+    "title": "Jméno kavárny",
+    "backgroundImage": "img/pozadi.jpg",
+    "overlayOpacity": 0.5,
+    "buttons": [
+      { "text": "Menu", "href": "#menu" },
+      { "text": "Reservation", "href": "#" }
+    ]
+  }
+}

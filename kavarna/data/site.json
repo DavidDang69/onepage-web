@@ -1,0 +1,14 @@
+{
+  "name": "Kavárna",
+  "font": "Inria Serif",
+  "theme": {
+    "background": "#000000",
+    "text": "#ffffff",
+    "border": "#ffffff"
+  },
+  "logo": "img/logo.png",
+  "pages": {
+    "home": "index.html",
+    "gallery": "gallery.html"
+  }
+}

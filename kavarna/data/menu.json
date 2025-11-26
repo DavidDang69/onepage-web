@@ -1,0 +1,19 @@
+{
+  "menu": {
+    "title": "Menu",
+    "categories": [
+      {
+        "title": "breakfast",
+        "items": ["casy", "list", "list", "list", "list", "extras"]
+      },
+      {
+        "title": "afternoon menu",
+        "items": ["casy", "list", "list", "list", "list", "extras"]
+      },
+      {
+        "title": "dalsi drinky rozdelene na alko, nealko atd.",
+        "items": ["list", "list", "list", "list"]
+      }
+    ]
+  }
+}

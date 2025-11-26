@@ -1,0 +1,10 @@
+{
+  "navigation": [
+    { "label": "menu", "href": "#menu" },
+    { "label": "about us", "href": "#about-us" },
+    { "label": "photo gallery", "href": "gallery.html" },
+    { "label": "reservation", "href": "#" },
+    { "label": "work with us", "href": "#" },
+    { "label": "contact", "href": "#" }
+  ]
+}
