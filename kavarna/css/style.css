@@ -213,10 +213,13 @@ nav a:hover {
 
 .gallery-item img {
     width: 100%;
-    height: 220px;
-    object-fit: cover;
+    height: 100%;
+    aspect-ratio: 1 / 1;        /* zajistí čtvercové pole */
+    object-fit: cover;          /* obraz vyplní celé pole */
+    display: block;
     transition: transform 0.3s;
 }
+
 
 .gallery-item img:hover {
     transform: scale(1.05);
@@ -227,3 +230,42 @@ nav a:hover {
     color: #ccc;
     margin-top: 10px;
 }
+
+/* LIGHTBOX */
+.lightbox {
+    position: fixed;
+    inset: 0;
+    display: none;                 /* skrytý, dokud není aktivní */
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.85);
+    z-index: 3000;
+    padding: 20px;
+  }
+  
+  .lightbox.active {
+    display: flex;
+  }
+  
+  .lightbox img {
+    max-width: 95%;
+    max-height: 90%;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.6);
+    border: 1px solid rgba(255,255,255,0.1);
+  }
+  
+  .lb-close {
+    position: absolute;
+    top: 20px;
+    right: 24px;
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 36px;
+    line-height: 1;
+    cursor: pointer;
+    z-index: 3010;
+    padding: 6px 10px;
+  }
+  .lb-close:focus { outline: 2px solid #fff; }
+  

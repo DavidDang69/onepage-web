@@ -48,7 +48,6 @@
         blablablablablablablablablablablablablablablablablablablablablablablablablablabla
         blablablablablablablablablablablablablablablablablablablablablablablablablablabla
         blablablablablablablablablablablablablablablablablablablablablablablablablablabla
-        blablablablablablablablablablablablablablablablablablablablablablablablablablabla
     </p>
 </section>
 
@@ -100,7 +99,7 @@
     </div>
 </section>
 
-<!-- NOVÁ SEKCE PHOTO GALLERY -->
+<!-- PHOTO GALLERY -->
 <section class="gallery" id="gallery">
     <h2>Photo Gallery</h2>
 
@@ -111,10 +110,17 @@
         <div class="gallery-item"><img src="img/gallery/kava-a-tiramisu.jpg" alt=""></div>
     </div>
 
-    <p class="gallery-caption">Klikni pro zvětšení (pokud ho budeš chtít).</p>
+    <p class="gallery-caption">Klikni na obrázek pro zvětšení.</p>
 </section>
 
+<!-- 🔥 LIGHTBOX – TOHLE JE NOVÉ (funguje to hned po vložení) -->
+<div class="lightbox" id="lightbox">
+    <button class="lb-close" id="lbClose">&times;</button>
+    <img id="lightboxImg" src="" alt="">
+</div>
+
 <script>
+    /* MENU */
     const menuIcon = document.getElementById('menuIcon');
     const navMenu = document.getElementById('navMenu');
 
@@ -122,11 +128,32 @@
         navMenu.classList.toggle('active');
     });
 
-    // zavření menu po kliknutí na odkaz
     document.querySelectorAll("#navMenu a").forEach(a => {
         a.addEventListener("click", () => {
             navMenu.classList.remove("active");
         });
+    });
+
+    /* LIGHTBOX */
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImg = document.getElementById("lightboxImg");
+    const lbClose = document.getElementById("lbClose");
+
+    document.querySelectorAll(".gallery-item img").forEach(img => {
+        img.addEventListener("click", () => {
+            lightboxImg.src = img.src;
+            lightbox.classList.add("active");
+        });
+    });
+
+    lbClose.addEventListener("click", () => {
+        lightbox.classList.remove("active");
+    });
+
+    lightbox.addEventListener("click", (e) => {
+        if (e.target === lightbox) {
+            lightbox.classList.remove("active");
+        }
     });
 </script>
 
