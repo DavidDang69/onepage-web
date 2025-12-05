@@ -3,23 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>kavarna</title>
+    <title>kavarna — Shibal</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap" rel="stylesheet">
-
     <style>
         html { scroll-behavior: smooth; }
     </style>
 </head>
 
 <body>
+
 <header>
     <div class="logo">
         <img src="img/logo.png" alt="Logo kavárny">
     </div>
-
     <div class="menu-icon" id="menuIcon">&#9776;</div>
-
     <nav id="navMenu">
         <ul>
             <li><a href="#menu">menu</a></li>
@@ -55,72 +53,127 @@
     <h2>Menu</h2>
 
     <div class="menu-category">
-        <h3>breakfast</h3>
-        <ul>
-            <li>casy</li>
-            <li>list</li>
-            <li>list</li>
-            <li>list</li>
-            <li>list</li>
-            <li>extras</li>
-        </ul>
+        <h3 class="menu-toggle">
+            Breakfast <span class="arrow">►</span>
+        </h3>
+        <div class="menu-content">
+            <ul>
+                <li>casy</li>
+                <li>list</li>
+                <li>list</li>
+                <li>list</li>
+                <li>list</li>
+                <li>extras</li>
+            </ul>
+        </div>
     </div>
 
     <div class="menu-category">
-        <h3>afternoon menu</h3>
-        <ul>
-            <li>casy</li>
-            <li>list</li>
-            <li>list</li>
-            <li>list</li>
-            <li>list</li>
-            <li>extras</li>
-        </ul>
+        <h3 class="menu-toggle">
+            Afternoon Menu <span class="arrow">►</span>
+        </h3>
+        <div class="menu-content">
+            <ul>
+                <li>casy</li>
+                <li>list</li>
+                <li>list</li>
+                <li>list</li>
+                <li>list</li>
+                <li>extras</li>
+            </ul>
+        </div>
     </div>
 
     <div class="menu-category">
-        <h3>alko drinky</h3>
-        <ul>
-            <li>list</li>
-            <li>list</li>
-            <li>list</li>
-            <li>list</li>
-        </ul>
+        <h3 class="menu-toggle">
+            Alko Drinky <span class="arrow">►</span>
+        </h3>
+        <div class="menu-content">
+            <ul>
+                <li>list</li>
+                <li>list</li>
+                <li>list</li>
+                <li>list</li>
+            </ul>
+        </div>
     </div>
 
     <div class="menu-category">
-        <h3>nealko drinky</h3>
-        <ul>
-            <li>list</li>
-            <li>list</li>
-            <li>list</li>
-            <li>list</li>
-        </ul>
+        <h3 class="menu-toggle">
+            Nealko Drinky <span class="arrow">►</span>
+        </h3>
+        <div class="menu-content">
+            <ul>
+                <li>list</li>
+                <li>list</li>
+                <li>list</li>
+                <li>list</li>
+            </ul>
+        </div>
     </div>
 </section>
 
-<!-- PHOTO GALLERY -->
+
+
 <section class="gallery" id="gallery">
     <h2>Photo Gallery</h2>
 
+    <!-- Breakfast -->
+    <h3>Breakfast</h3>
     <div class="gallery-grid">
-        <div class="gallery-item"><img src="img/gallery/gallery1.jpg" alt=""></div>
-        <div class="gallery-item"><img src="img/gallery/gallery2.jpg" alt=""></div>
-        <div class="gallery-item"><img src="img/gallery/gallery3.jpg" alt=""></div>
-        <div class="gallery-item"><img src="img/gallery/kava-a-tiramisu.jpg" alt=""></div>
+        <div class="gallery-item"><img src="img/gallery/breakfast/breakfast1.jpg" alt=""></div>
+        <div class="gallery-item"><img src="img/gallery/breakfast/breakfast2.jpg" alt=""></div>
+        <div class="gallery-item"><img src="img/gallery/breakfast/breakfast3.jpg" alt=""></div>
+        <div class="gallery-item"><img src="img/gallery/breakfast/breakfast4.jpg" alt=""></div>
     </div>
 
-    <p class="gallery-caption">Klikni na obrázek pro zvětšení.</p>
+    <!-- Afternoon -->
+    <h3>Afternoon</h3>
+    <div class="gallery-grid">
+        <div class="gallery-item"><img src="img/gallery/afternoon/afternoon1.jpg" alt=""></div>
+        <div class="gallery-item"><img src="img/gallery/afternoon/afternoon2.jpg" alt=""></div>
+        <div class="gallery-item"><img src="img/gallery/afternoon/afternoon3.jpg" alt=""></div>
+        <div class="gallery-item"><img src="img/gallery/afternoon/afternoon4.jpg" alt=""></div>
+    </div>
+
+    <!-- Nealko -->
+    <h3>Nealko</h3>
+    <div class="gallery-grid">
+        <div class="gallery-item"><img src="img/gallery/nealko/nealko1.jpg" alt=""></div>
+        <div class="gallery-item"><img src="img/gallery/nealko/nealko2.jpg" alt=""></div>
+        <div class="gallery-item"><img src="img/gallery/nealko/nealko3.jpg" alt=""></div>
+        <div class="gallery-item"><img src="img/gallery/nealko/nealko4.jpg" alt=""></div>
+    </div>
+
+    <!-- Alko -->
+    <h3>Alko</h3>
+    <div class="gallery-grid">
+        <div class="gallery-item"><img src="img/gallery/alko/alko1.jpg" alt=""></div>
+        <div class="gallery-item"><img src="img/gallery/alko/alko2.jpg" alt=""></div>
+        <div class="gallery-item"><img src="img/gallery/alko/alko3.jpg" alt=""></div>
+        <div class="gallery-item"><img src="img/gallery/alko/alko4.jpg" alt=""></div>
+    </div>
+
+    <!-- Kávy -->
+    <h3>Kávy</h3>
+    <div class="gallery-grid">
+        <div class="gallery-item"><img src="img/gallery/kavy/kavy1.jpg" alt=""></div>
+        <div class="gallery-item"><img src="img/gallery/kavy/kavy2.jpg" alt=""></div>
+        <div class="gallery-item"><img src="img/gallery/kavy/kavy3.jpg" alt=""></div>
+        <div class="gallery-item"><img src="img/gallery/kavy/kavy4.jpg" alt=""></div>
+    </div>
+
+    <!-- Interiér -->
+    <h3>Interiér</h3>
+    <div class="gallery-grid">
+        <div class="gallery-item"><img src="img/gallery/interier/interier1.jpg" alt=""></div>
+        <div class="gallery-item"><img src="img/gallery/interier/interier2.jpg" alt=""></div>
+        <div class="gallery-item"><img src="img/gallery/interier/interier3.jpg" alt=""></div>
+        <div class="gallery-item"><img src="img/gallery/interier/interier4.jpg" alt=""></div>
+    </div>
 </section>
 
-<!-- 🔥 LIGHTBOX – TOHLE JE NOVÉ (funguje to hned po vložení) -->
-<div class="lightbox" id="lightbox">
-    <button class="lb-close" id="lbClose">&times;</button>
-    <img id="lightboxImg" src="" alt="">
-</div>
-
 <script>
-    /* MENU */
     const menuIcon = document.getElementById('menuIcon');
     const navMenu = document.getElementById('navMenu');
 
@@ -133,28 +186,29 @@
             navMenu.classList.remove("active");
         });
     });
+</script>
 
-    /* LIGHTBOX */
-    const lightbox = document.getElementById("lightbox");
-    const lightboxImg = document.getElementById("lightboxImg");
-    const lbClose = document.getElementById("lbClose");
+<script>
+    const menuIcon = document.getElementById('menuIcon');
+    const navMenu = document.getElementById('navMenu');
 
-    document.querySelectorAll(".gallery-item img").forEach(img => {
-        img.addEventListener("click", () => {
-            lightboxImg.src = img.src;
-            lightbox.classList.add("active");
+    menuIcon.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+    });
+
+    document.querySelectorAll("#navMenu a").forEach(a => {
+        a.addEventListener("click", () => {
+            navMenu.classList.remove("active");
         });
     });
+</script>
 
-    lbClose.addEventListener("click", () => {
-        lightbox.classList.remove("active");
+<script>
+document.querySelectorAll(".menu-toggle").forEach(toggle => {
+    toggle.addEventListener("click", () => {
+        toggle.parentElement.classList.toggle("active");
     });
-
-    lightbox.addEventListener("click", (e) => {
-        if (e.target === lightbox) {
-            lightbox.classList.remove("active");
-        }
-    });
+});
 </script>
 
 </body>
