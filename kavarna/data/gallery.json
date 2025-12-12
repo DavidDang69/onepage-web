@@ -1,19 +1,38 @@
 {
-  "gallery": {
-    "title": "Photo Gallery",
-    "grid": {
-      "default": 4,
-      "1000px": 3,
-      "700px": 2,
-      "420px": 1
-    },
-    "hoverZoom": true,
-    "lightbox": false,
-    "images": [
-      "img/gallery/gallery1.jpg",
-      "img/gallery/gallery2.jpg",
-      "img/gallery/gallery3.jpg",
-      "img/gallery/kava-a-tiramisu.jpg"
-    ]
-  }
+  "breakfast": [
+    "img/gallery/breakfast/breakfast1.jpg",
+    "img/gallery/breakfast/breakfast2.jpg",
+    "img/gallery/breakfast/breakfast3.jpg",
+    "img/gallery/breakfast/breakfast4.jpg"
+  ],
+  "afternoon": [
+    "img/gallery/afternoon/afternoon1.jpg",
+    "img/gallery/afternoon/afternoon2.jpg",
+    "img/gallery/afternoon/afternoon3.jpg",
+    "img/gallery/afternoon/afternoon4.jpg"
+  ],
+  "nonalcohol": [
+    "img/gallery/nealko/nealko1.jpg",
+    "img/gallery/nealko/nealko2.jpg",
+    "img/gallery/nealko/nealko3.jpg",
+    "img/gallery/nealko/nealko4.jpg"
+  ],
+  "alcohol": [
+    "img/gallery/alko/alko1.jpg",
+    "img/gallery/alko/alko2.jpg",
+    "img/gallery/alko/alko3.jpg",
+    "img/gallery/alko/alko4.jpg"
+  ],
+  "coffee": [
+    "img/gallery/kavy/kava1.jpg",
+    "img/gallery/kavy/kava2.jpg",
+    "img/gallery/kavy/kava3.jpg",
+    "img/gallery/kavy/kava4.jpg"
+  ],
+  "interior": [
+    "img/gallery/interier/interier1.jpg",
+    "img/gallery/interier/interier2.jpg",
+    "img/gallery/interier/interier3.jpg",
+    "img/gallery/interier/interier4.jpg"
+  ]
 }

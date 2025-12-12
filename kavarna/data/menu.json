@@ -3,16 +3,24 @@
     "title": "Menu",
     "categories": [
       {
-        "title": "breakfast",
+        "title": "Breakfast",
         "items": ["casy", "list", "list", "list", "list", "extras"]
       },
       {
-        "title": "afternoon menu",
+        "title": "Afternoon Menu",
         "items": ["casy", "list", "list", "list", "list", "extras"]
       },
       {
-        "title": "dalsi drinky rozdelene na alko, nealko atd.",
+        "title": "Alko Drinky",
         "items": ["list", "list", "list", "list"]
+      },
+      {
+        "title": "Nealko Drinky",
+        "items": ["list", "list", "list", "list"]
+      },
+      {
+        "title": "Kávy",
+        "items": ["espresso", "latte", "cappuccino", "flat white", "iced coffee"]
       }
     ]
   }
