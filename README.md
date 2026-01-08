@@ -36,11 +36,11 @@ Zákazníci hledající kvalitní kávu, příjemné posezení a moderní prost�
 
 ## **Použité technologie**
 
-- **Frontend:** HTML a CSS
-    
-- **Data:** Statický obsah přímo v HTML
-    
-- **Verzování:** Git + GitHub (repozitář dostupný vyučujícímu)
+- **Frontend:** HTML, CSS, JavaScript  
+
+- **Data:** Statický obsah přes JSON soubory načítaný AJAXem (About Us, Work With Us, Contact, Menu, Galerie, Hero, Navigace)  
+
+- **Verzování:** Git + GitHub (repozitář dostupný vyučujícímu)  
 
 ---
 
