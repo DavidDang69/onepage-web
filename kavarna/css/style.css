@@ -211,3 +211,43 @@ nav a:hover { background: #222; }
 .gallery-item img:hover { transform: scale(1.05); }
 
 .gallery-caption { text-align: center; color: #ccc; margin-top: 10px; }
+
+
+/* WORK-WITH-US */
+.work-us, .contact {
+    padding-top: 120px;
+    text-align: center;
+}
+
+.work-us h2, .contact h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+    .work-us p, .contact p {
+        font-size: 1.2rem;
+        max-width: 85%;
+        margin: 0 auto;
+        line-height: 1.6;
+        margin-bottom: 100px;
+    }
+  
+    
+/* RESERVATION */
+.reservation {
+    padding-top: 120px;
+    text-align: center;
+}
+
+.reservation h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+    .reservation a {
+        font-size: 1.2rem;
+        max-width: 85%;
+        margin: 0 auto;
+        line-height: 1.6;
+        margin-bottom: 100px;
+    }

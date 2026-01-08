@@ -23,9 +23,9 @@
             <li><a href="#menu">menu</a></li>
             <li><a href="#about-us">about us</a></li>
             <li><a href="#gallery">photo gallery</a></li>
-            <li><a href="#">reservation</a></li>
-            <li><a href="#">work with us</a></li>
-            <li><a href="#">contact</a></li>
+            <li><a href="#reservation">reservation</a></li>
+            <li><a href="#work-us">work with us</a></li>
+            <li><a href="#contact">contact</a></li>
         </ul>
     </nav>
 </header>
@@ -34,14 +34,14 @@
     <h1 class="hero-title">Shibal</h1>
     <div class="hero-buttons">
         <a href="#menu" class="btn">Menu</a>
-        <a href="#" class="btn">Reservation</a>
+        <a href="#reservation" class="btn">Reservation</a>
     </div>
 </section>
 
-<section class="about-us" id="about-us">
-  <h2>About Us</h2>
-  <p id="about-us-text"></p>
-</section>
+    <section class="about-us" id="about-us">
+    <h2>About Us</h2>
+    <p id="about-us-text"></p>
+    </section>
 
 <section class="menu-section" id="menu">
     <h2>Menu</h2>
@@ -181,9 +181,28 @@
     </div>
 </section>
 
+<section class="reservation" id="reservation">
+  <h2>Reservation</h2>
+  <a>prilis prace so nuh uh</a>
+</section>
+
+<section class="work-us" id="work-us">
+  <h2>Work With Us</h2>
+  <p id="work-us-text"></p>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Contact</h2>
+  <p id="contact-text"></p>
+</section>
+
+
+
 <script src="js/gallery.js"></script>
 
 <script src="js/about-us.js"></script>
+
+<script src="js/contact-work.js"></script>
 
 <script>
 fetch("data/about.json")
@@ -196,6 +215,8 @@ fetch("data/about.json")
         console.error("Chyba při načítání JSON:", err);
     });
 </script>
+
+
 
 <script>
     const menuIcon = document.getElementById('menuIcon');
@@ -234,6 +255,7 @@ document.querySelectorAll(".menu-toggle").forEach(toggle => {
     });
 });
 </script>
+
 
 </body>
 </html>
