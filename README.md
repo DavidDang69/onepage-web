@@ -22,7 +22,7 @@ Zákazníci hledající kvalitní kávu, příjemné posezení a moderní prost�
     
 4. **Reservation** – možnost rezervace místa, popř. informace o způsobu rezervace.
     
-5. **Work with us -** nabídka pracovních pozic a informace pro zájemce o spolupráci.
+5. **Work with us** - informace pro zájemce o spolupráci.
     
 6. **Contact** – adresa, otevírací doba, telefon, e-mail a jednoduchý kontaktní formulář.
 
